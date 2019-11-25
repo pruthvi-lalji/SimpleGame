@@ -13,10 +13,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //Setting FullScreen
+
+       /* //Setting FullScreen
         this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
         //Removes title
-        this.requestWindowFeature(Window.FEATURE_NO_TITLE);
+       */
     }
 }
